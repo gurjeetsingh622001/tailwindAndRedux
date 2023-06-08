@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dashboard {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.card {
+    background: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.card p {
+    margin: 10px 0 0;
+    padding: 0;
+}

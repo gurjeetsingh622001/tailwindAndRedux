@@ -1,0 +1,15 @@
+<!-- <h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1> -->
+<!-- <ngx-spinner type="ball-scale-multiple"></ngx-spinner> -->
+
+<!-- <div class="lds-dual-ring"></div> -->
+
+<div *ngIf="blockedPanel">
+  <app-spinner></app-spinner>
+</div>
+<!-- <app-spinner *ngIf="Loading$ | async"></app-spinner> -->
+<p-blockUI [blocked]="blockedPanel">
+  <!-- <i class="pi pi-lock" style="font-size: 3rem"></i> -->
+</p-blockUI>
+<router-outlet></router-outlet>
